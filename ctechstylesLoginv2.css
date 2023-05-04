@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("ctechsys.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+h1 {
+    color: #37517e;
+}
+
+
+/* responsive heading approach 1*/
+.heading {
+    padding-top: 100px;
+}
+
+h2 {
+    font-size: 4.5vw;
+}
+
+.form {
+    max-width: 300px;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: #37517e;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.forgotPassword {
+    color: #37517e;
+}
+
+.forgotPassword:hover {
+    color: rgb(0, 183, 255);
+}
+
+.forgotPassword:active {
+    color: red;
+}
